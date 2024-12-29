@@ -11,21 +11,23 @@ git clone https://github.com/rahmathidayat9/laraschool
 ## Mengunakan Windows
 - buka direktori project terkait menggunakan terminal
 - ketikan command : cp .env.example .env (copy paste file .env.example)
-- import dumbgudang.sql ke database lokal
+- import database dumbgudang.sql ke database lokal
 - seuaikan database pada .env
-- composer install
-- php artisan key:generate (generate app key)
-- php artisan serve
+- command : composer install
+- command : php artisan key:generate (generate app key)
+- command : php artisan serve
  
 ## Mengunakan Linux (Docker)
 - buka direktori project terkait
-- sudo mv .env.example .env
-- sudo docker-compose up -d --build 
-- sudo docker exec -it WebsiteGudang bash (terminlan container Website)
-- composer install --no-interaction --prefer-dist ( memastikan composer telah terinstal)
-- chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache (untuk mengubah akses direktori)
-- php artisan key:generate (generate app key)
-- exit
+- command : sudo mv .env.example .env
+- seuaikan database pada .env
+- command : sudo docker-compose up -d --build 
+- command : sudo docker exec -it WebsiteGudang bash (terminlan container Website)
+- command : composer install --no-interaction --prefer-dist ( memastikan composer telah terinstal)
+- command : chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache (untuk mengubah akses direktori)
+- command : php artisan key:generate (generate app key)
+- command : exit
+- import database dumbgudang.sql ke PHPmyadmin
 # Login
 
 ## Username : admin
