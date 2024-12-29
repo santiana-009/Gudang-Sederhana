@@ -15,16 +15,16 @@ Mengunakan Windows
 - seuaikan database pada .env
 - composer install
 - php artisan key:generate (generate app key)
-- php artisan serve
+- php artisan serve<br>
 Mengunakan Linux (Docker)
-    - buka direktori project terkait
-	- sudo mv .env.example .env
- 	- sudo docker-compose up -d --build 
-    - sudo docker exec -it WebsiteGudang bash (terminlan container Website)
-    - composer install --no-interaction --prefer-dist ( memastikan composer telah terinstal)
-    - chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache (untuk mengubah akses direktori)
-    - php artisan key:generate (generate app key)
-    - exit
+- buka direktori project terkait
+- sudo mv .env.example .env
+- sudo docker-compose up -d --build 
+- sudo docker exec -it WebsiteGudang bash (terminlan container Website)
+- composer install --no-interaction --prefer-dist ( memastikan composer telah terinstal)
+- chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache (untuk mengubah akses direktori)
+- php artisan key:generate (generate app key)
+- exit
 ## Login
 
 Username : Admin
