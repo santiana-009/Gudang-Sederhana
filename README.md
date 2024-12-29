@@ -16,6 +16,7 @@ git clone https://github.com/rahmathidayat9/laraschool
 - composer install
 - php artisan key:generate (generate app key)
 - php artisan serve
+ 
 #Mengunakan Linux (Docker)
 - buka direktori project terkait
 - sudo mv .env.example .env
