@@ -9,13 +9,13 @@ git clone https://github.com/rahmathidayat9/laraschool
 
 ## Setup
 Mengunakan Windows
-    - buka direktori project terkait menggunakan terminal
-	- ketikan command : cp .env.example .env (copy paste file .env.example)
- 	- import dumbgudang.sql ke database lokal
-  	- seuaikan database pada .env
-   	- composer install
-	- php artisan key:generate (generate app key)
- 	- php artisan serve
+- buka direktori project terkait menggunakan terminal
+- ketikan command : cp .env.example .env (copy paste file .env.example)
+- import dumbgudang.sql ke database lokal
+- seuaikan database pada .env
+- composer install
+- php artisan key:generate (generate app key)
+- php artisan serve
 Mengunakan Linux (Docker)
     - buka direktori project terkait
 	- sudo mv .env.example .env
