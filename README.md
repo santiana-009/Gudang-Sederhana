@@ -28,8 +28,8 @@ git clone https://github.com/rahmathidayat9/laraschool
 - exit
 # Login
 
-## Username : Admin
-## Password : Admin
+## Username : admin
+## Password : admin
 
 # Fitur
 
