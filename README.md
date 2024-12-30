@@ -77,3 +77,7 @@ exit
 - From Outgoing -> Digunakan untuk membuat daftar barang yang keluar dari gudang untuk keperluan dinas
 - List Outgoing -> Daftar surat outgoing yang telah dibuat
 - List Outgoing ~END -> Daftar surat outgoing dimana setelah dinas akan di data lagi apakah ada brang yang tidak jadi dipakai dan kembali ke gudang
+
+
+# preview
+[<img src="https://github.com/santiana-009/Gudang-Sederhana/blob/main/preview/Screenshot%202024-12-29%20131224.png" width="" />]
