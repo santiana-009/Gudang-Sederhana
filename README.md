@@ -80,4 +80,7 @@ exit
 
 
 # preview
-[<img src="https://github.com/santiana-009/Gudang-Sederhana/blob/main/preview/Screenshot%202024-12-29%20131224.png" width="" />]
+<img src="https://github.com/santiana-009/Gudang-Sederhana/blob/main/preview/Screenshot%202024-12-29%20131224.png"/>
+<img src="https://github.com/santiana-009/Gudang-Sederhana/blob/main/preview/Screenshot%202024-12-29%20131302.png"/>
+<img src="https://github.com/santiana-009/Gudang-Sederhana/blob/main/preview/Screenshot%202024-12-29%20131517.png"/>
+<img src="https://github.com/santiana-009/Gudang-Sederhana/blob/main/preview/Screenshot%202024-12-29%20131537.png"/>
