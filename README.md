@@ -13,7 +13,10 @@ git clone https://github.com/rahmathidayat9/laraschool
 - ketikan command : cp .env.example .env (copy paste file .env.example)
 - import database dumbgudang.sql ke database lokal
 - seuaikan database pada .env
-- command : composer install
+- command :
+```
+composer install
+```
 - command : php artisan key:generate (generate app key)
 - command : php artisan serve
  
