@@ -31,15 +31,37 @@ php artisan serve
  
 ## Mengunakan Linux (Docker)
 - buka direktori project terkait
-- command : sudo mv .env.example .env
+- merubah file .env.example ke .env
+```
+sudo mv .env.example .env
+```
 - seuaikan database pada .env
-- command : sudo docker-compose up -d --build 
-- command : sudo docker exec -it WebsiteGudang bash (terminlan container Website)
-- command : composer install --no-interaction --prefer-dist ( memastikan composer telah terinstal)
-- command : chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache (untuk mengubah akses direktori)
-- command : php artisan key:generate (generate app key)
-- command : exit
+- membuat container docker
+```
+sudo docker-compose up -d --build 
+```
+- masuk kedalam bash container website
+```
+sudo docker exec -it WebsiteGudang bash (terminlan container Website)
+```
+- memastikan composer telah terinstal
+```
+composer install --no-interaction --prefer-dist
+```
+- untuk mengubah akses direktori
+```
+chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
+```
+- generate app key
+```
+php artisan key:generate
+```
+- exit bash
+```
+exit
+```
 - import database dumbgudang.sql ke PHPmyadmin
+
 # Login
 
 ## Username : admin
