@@ -5,7 +5,7 @@ proyek yang dibuat saat magang tentang manajemen keluar masuknya barang di gudan
 
 # Instalasi
 
-git clone https://github.com/rahmathidayat9/laraschool
+git clone https://github.com/santiana-009/Gudang-Sederhana.git
 
 # Setup
 ## Mengunakan Windows
